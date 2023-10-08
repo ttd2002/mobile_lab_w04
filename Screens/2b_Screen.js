@@ -1,5 +1,4 @@
 import { View, Text, StyleSheet, Image, TextInput, Pressable } from "react-native";
-import { AirbnbRating } from 'react-native-ratings'
 import Ionicon from 'react-native-vector-icons/Ionicons'
 
 
@@ -13,11 +12,7 @@ function Screen_2b() {
                 <Text style={styles.decription}>USB Blutooth Music Receiver HJX-001- Biến loa thường thành loa blutooth</Text>
             </View>
             <View style={styles.ratings}>
-                <AirbnbRating
-                    reviews={['Tệ', 'Không hài lòng', 'hài lòng', 'Rất hài lòng', 'Cực kỳ hài lòng']}
-                    count={5}
-                    defaultRating={5}
-                />
+                
             </View>
             <View style={styles.imageInput}>
                 <Pressable style={styles.imageButton}>
